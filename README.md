@@ -1,6 +1,6 @@
 # Basic Linux Commands
 
-## Command used to create a file
+## 1. Command used to create a file
 
 ### create a new file in Linux/Unix using several commands, depending on the needs
 
@@ -10,7 +10,7 @@
 
 bash
 
-touch filename.txt
+'#000000' touch filename.txt
 
 This will create a file named filename.txt.
 
