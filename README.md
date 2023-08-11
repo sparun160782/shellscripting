@@ -6,15 +6,15 @@
 
 ### Using touch Command:
 
-### The touch command is commonly used to create an empty file or update the timestamp of an existing file.
+The touch command is commonly used to create an empty file or update the timestamp of an existing file.
 
-bash
+        bash
 
-'#000000' touch filename.txt
+    	`#000000` touch filename.txt
 
 This will create a file named filename.txt.
 
-Using Text Editors:
+### Using Text Editors:
 
 You can also use text editors like nano, vim, or emacs to create and edit files:
 
@@ -22,7 +22,7 @@ You can also use text editors like nano, vim, or emacs to create and edit files:
 
     bash
 
-nano filename.txt
+    nano filename.txt
 
 To create and edit a file using vim:
 
