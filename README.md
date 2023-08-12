@@ -69,7 +69,55 @@ It's usually used for small files.
 After running this command, you can type in the content. Press **Ctrl + D** to save the content and create the file.
 
 
+## 2. How to list the files
 
+**ls** Command: 
 
+The most common command for listing files in a directory is ls. 
+It provides a simple list of filenames.
 
+    bash
 
+    ls
+
+    You can also use various options with ls to customize the output:
+
+    ls -l: Long format, providing detailed information like permissions, owner, size, and modification date.
+    ls -a: List all files, including hidden files (those starting with a dot).
+    ls -lh: Long format with human-readable file sizes (e.g., KB, MB).
+    ls -t: List files by modification time, with the most recently modified files shown first.
+    ls -R: Recursively list files in subdirectories.
+    ls -r: It reverses the order of the list. When combined with -t, 
+    it sorts the list in reverse order of modification time, meaning the oldest files or directories appear at the top.
+
+**tree** Command:
+
+If you want a hierarchical listing of files and directories, you can use the tree command. 
+
+It's not installed by default on all systems but can be installed from package repositories.
+
+    bash
+
+    tree
+
+**find** Command:
+
+The find command is more powerful and versatile. It's used to search for files and directories based on various criteria.
+
+    bash
+
+    find /path/to/start/directory -type f
+
+This command will list all files (-type f) in the specified directory and its subdirectories.
+
+**du** Command:
+
+If you're interested in the disk usage of files, you can use the du (disk usage) command. It shows the space used by files and directories.
+
+    bash
+
+    du -h
+
+The **-h** option displays sizes in a human-readable format.
+
+## 3. 
